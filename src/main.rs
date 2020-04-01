@@ -35,7 +35,7 @@ fn find_path() -> Option<PathBuf> {
 }
 
 fn print_help() {
-    todo!()
+    println!("usage: sp [file]")
 }
 
 fn do_write(path: impl AsRef<Path>) -> io::Result<()> {
